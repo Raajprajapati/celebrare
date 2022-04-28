@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celebrare</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css">
+    <script
+        src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous">
+    </script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="toggle">
+            <i class="fa-solid fa-xmark close" id="close"></i>
+            <i class="fa-solid fa-bars open" id="open"></i>
+        </div>
+        <div class="logo">
+            <img src="assets/Logo.png" alt="logo">
+        </div>
+        <div class="menu" id="menu">
+            <ul>
+                <li class="menu_item"><a href="#">Wedding cards</a></li>
+                <li class="menu_item"><a href="#">birthday cards</a></li>
+                <li class="menu_item"><a href="#">feeling cards</a></li>
+                <li class="menu_item"><a href="#">anniversary cards</a></li>
+                <li class="login_out"><a href="#">Login | signup</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="home">
+        <div class="bg"><h1>Digital Card Details</h1><div>
+        <div class="fg">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper carousel_wrapper" id="carousel">
+                    <div class="card_img swiper-slide " ><img draggable="false" src="assets/Page1.jpg" alt=""></div>
+                    <div class="card_img swiper-slide " ><img draggable="false" src="assets/Page2.jpg" alt=""></div>
+                    <div class="card_img swiper-slide " ><img draggable="false" src="assets/Page3.jpg" alt=""></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="card_details">
+                <h3>Card Title</h3>
+                <div class="price">
+                    <p>$499 <span>$2000</span></p>
+                    <p>75%off</p>
+                </div>
+                
+                <div class="info">
+                    Donec eu ornare mi. Sed finibuscondimentum mauris, ut dictum erosmaximus vitae.Nullam <br>condimentum tortor ac elit feugiatiaculis. Aenean mauris nisl, blandit
+                </div>
+                <button>Try This Card</button>
+            </div>
+            </div>
+    </section>
+    <section id="features">
+        <h3>Features</h3>
+        <div class="features_wrapper">
+            <div class="feature">
+                <div class="f_img"></div>
+                <div class="f_info">
+                    Create your card in just 5 mins
+                </div>
+            </div>
+
+            <div class="feature">
+                <div class="f_img"></div>
+                <div class="f_info">
+                Customize the Text with "Edit this Page" Option
+                </div>
+            </div>
+
+            <div class="feature">
+                <div class="f_img"></div>
+                <div class="f_info">
+                    Editing is available after purchase also
+                </div>
+            </div>
+        </div>
+    </section> 
+</body>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="js/index.js"></script>
+
+</html>
