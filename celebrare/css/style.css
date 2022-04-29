@@ -427,4 +427,7 @@ body {
      .home{
           margin-bottom:32rem;
      }
+    .card_details{
+         width:90%;
+    }
 }
