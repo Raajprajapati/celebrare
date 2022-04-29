@@ -409,7 +409,7 @@ body {
 		border-radius: 1rem !important;
 	}
 	.home .fg {
-		width: 98%;
+		width: 94%;
 	}
 	.card_details button {
 		top: -20rem;
@@ -418,5 +418,13 @@ body {
 		margin-top: 15rem;
 	}
 	
-
+}
+@media screen and (max-width: 512px) {
+    .swiper{
+         margin-left:-20%;
+         margin-right:-20%;
+    }
+     .home{
+          margin-bottom:32rem;
+     }
 }
